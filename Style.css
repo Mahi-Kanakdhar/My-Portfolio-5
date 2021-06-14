@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+img {
+    transition: transform 0.2s;
+    height: 300px;
+}
+
+.links {
+    float: right;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: rgba(0, 255, 250, 0.33);
+}
+
+#bio {
+    background: linear-gradient(90deg, rgba(58, 180, 89, 1) 0%, rgba(29, 55, 253, 1) 50%, rgba(252, 112, 69, 1) 100%);
+}
+
+#menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#My_fav_Books {
+    background: linear-gradient(90deg, rgba(58, 180, 89, 1) 0%, rgba(29, 55, 253, 1) 50%, rgba(252, 112, 69, 1) 100%);
+}
+
+#art {
+    color: whitesmoke;
+}
+
+.article {
+    font-size: 20px;
+}
+
+#div {
+    background: linear-gradient(90deg, rgba(58, 180, 89, 1) 0%, rgba(29, 55, 253, 1) 50%, rgba(252, 112, 69, 1) 100%);
+}
+
+#contact {
+    background: linear-gradient(90deg, rgba(24, 204, 70, 1) 0%, rgba(29, 253, 225, 1) 50%, rgba(69, 252, 137, 1) 100%);
+}
+.myname{
+    font-family:monospace;
+    font-size: 30;
+}
